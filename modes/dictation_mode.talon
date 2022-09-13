@@ -68,6 +68,7 @@ formatted <user.format_text>:
 
 # Corrections
 scratch that: user.clear_last_phrase()
+undo that: edit.undo()
 scratch selection: edit.delete()
 select that: user.select_last_phrase()
 spell that <user.letters>: auto_insert(letters)
