@@ -117,6 +117,7 @@ modifier_keys = {
 }
 if app.platform == "mac":
     modifier_keys["command"] = "cmd"
+    modifier_keys["super"] = "cmd"
     modifier_keys["option"] = "alt"
 ctx.lists["self.modifier_key"] = modifier_keys
 alphabet = dict(zip(default_alphabet, letters_string))
@@ -234,6 +235,7 @@ simple_keys = [
 alternate_keys = {
     "wipe": "backspace",
     "delete": "backspace",
+    "deli": "backspace",
     #'junk': 'backspace',
     "forward delete": "delete",
     "page up": "pageup",
